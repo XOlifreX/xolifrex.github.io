@@ -111,16 +111,14 @@ p {
 
 #banner img {
     position: relative;
+    width: 55rem;
+    height: 33rem;
     left: -1.5rem;
     top: -0.5rem;
-}
-
-#aboutme-box p {
-    position: absolute;
-    left: 65%;
-    top: 25%;
-    background-color: white;
-    box-shadow: 0 0 1rem 0 black;
+    float: right;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    box-shadow: 0.5rem 0.5rem 1rem 0 black;
 }
   
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
