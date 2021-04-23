@@ -1,3 +1,15 @@
+@import "main.css";
+
 main {
     display: block;
+}
+
+#aboutme-box p a{
+    text-decoration: none;
+    color: red;
+}
+
+#aboutme-box p a:hover{
+    text-decoration: none;
+    color: #8f8d8d;
 }
