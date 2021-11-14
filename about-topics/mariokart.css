@@ -1,0 +1,151 @@
+/* General stuff */
+* {
+    font-family: "Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+	font-size: 2.4rem;
+}
+h2 {
+	margin-top: 1rem;
+	font-size: 1.5rem
+}
+h3 {
+	margin-top: 1.5rem;
+	font-size: 1.25rem
+}
+h4, h5, h6 {
+	margin-top: 1rem;
+	font-size: 1rem
+}
+p {
+	margin-top: 0;
+	margin-bottom: 1rem
+}
+
+/* The sidebar menu */
+.sidebar {
+    padding: 1em 1em 1em 1em;
+    height: 100%;
+    width: 16em;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(rgb(105, 64, 143), rgb(35, 0, 68));
+    overflow-x: hidden;
+    padding-top: 1.5em;
+	color: #cacaca;
+    box-shadow: 0 0 1rem 0 black;
+}
+  
+#title, #title a {
+    text-decoration: none;
+	margin-bottom: .5rem;
+	font-weight: 600;
+	line-height: 1.25;
+	color: #cacaca;
+}
+
+#nickname {
+    font-size: 4rem;
+}
+
+#title a:hover {
+    text-decoration: underline;
+}
+ 
+#additional {
+	color: #8f8d8d;
+    font-size: 1.2rem;
+}
+
+#links {
+    padding-top: 1rem;
+}
+
+#links a {
+    text-decoration: none;
+	margin-bottom: .5rem;
+	font-weight: 600;
+	line-height: 1.25;
+	color: #cacaca;
+    display: block;
+    font-size: 1.2rem;
+}
+
+#links a:hover {
+    text-decoration: underline;
+}
+
+#copyright {
+    position: fixed;
+    bottom: 0;
+}
+
+#external-icons img {
+    height: 25px;
+    padding-top: 2rem;
+    padding-right: 1rem;
+}
+
+#github-icon {
+    width: 25px;
+}
+
+#twitter-icon {
+    width: 25px;
+}
+
+#youtube-icon {
+    width: 35px;
+}
+
+  /* Style page content */
+.main {
+    margin-left: 20em;
+}
+
+#banner {
+    height: 32em;
+    width: auto;
+    background-image: url(../resources/MarioKartTrophiesBanner.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: -1em 0 0 -3em;
+    box-shadow: inset 0 0 1rem 0 black;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar #title {font-size: 18px;}
+}
+
+#mariokart-box {
+    width: 100%;
+    height: 100%;
+}
+
+#mariokart-box p a{
+    text-decoration: none;
+    color: red;
+}
+
+#mariokart-box p a:hover{
+    text-decoration: none;
+    color: #8f8d8d;
+}
+
+#tournaments #image-group img {
+    width: 30em;
+    height: 18em;
+}
+
+#tournaments img {
+    width: 50em;
+    height: 36em;
+}
