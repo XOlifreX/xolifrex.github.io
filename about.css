@@ -112,7 +112,7 @@ p {
 #banner {
     height: 30%;
     width: auto;
-    background-image: url(resources/myself6.png);
+    background-image: url(resources/AboutMeBanner.jpg);
     background-attachment: fixed;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -132,7 +132,15 @@ p {
     .sidebar #title {font-size: 18px;}
 }
 
-#aboutme-box p a{
+#aboutme-box img {
+    width: 22em;
+    height: 30em;
+    margin: 0 1em 0 1em;
+    float: right;
+    box-shadow: 0.5em 0.5em 1em 0 black;
+}
+
+#aboutme-box p a {
     text-decoration: none;
     color: red;
 }
