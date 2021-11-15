@@ -13,7 +13,7 @@ h2 {
 	font-size: 1.5rem
 }
 h3 {
-	margin-top: 1.5rem;
+	margin-top: 1rem;
 	font-size: 1.25rem
 }
 h4, h5, h6 {
@@ -36,7 +36,7 @@ p {
     left: 0;
     background-image: linear-gradient(rgb(105, 64, 143), rgb(35, 0, 68));
     overflow-x: hidden;
-    padding-top: 1.5em;
+    padding-top: 3em;
 	color: #cacaca;
     box-shadow: 0 0 1rem 0 black;
 }
@@ -60,6 +60,7 @@ p {
 #additional {
 	color: #8f8d8d;
     font-size: 1.2rem;
+    padding-top: 1em;
 }
 
 #links {
@@ -112,7 +113,6 @@ p {
     height: 30%;
     width: auto;
     background-image: url(../resources/MarioKartTrophiesBanner.png);
-    background-attachment: fixed;
     background-size: 100% auto;
     background-repeat: no-repeat;
     margin: -1em 0 0 -3em;

@@ -1,19 +1,19 @@
 /* General stuff */
 * {
     font-family: "Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif;
+    margin: 0;
+    padding: 0;
 }
-
 
 h1 {
 	font-size: 2.4rem;
 }
 h2 {
 	margin-top: 1rem;
-	font-size:
-	1.5rem
+	font-size: 1.5rem
 }
 h3 {
-	margin-top: 1.5rem;
+	margin-top: 1rem;
 	font-size: 1.25rem
 }
 h4, h5, h6 {
@@ -27,16 +27,16 @@ p {
 
 /* The sidebar menu */
 .sidebar {
-    padding: 6px 8px 6px 16px;
+    padding: 1em 1em 1em 1em;
     height: 100%;
-    width: 260px;
+    width: 16em;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-image: linear-gradient(rgb(105, 64, 143), rgb(35, 0, 68));
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 3em;
 	color: #cacaca;
     box-shadow: 0 0 1rem 0 black;
 }
@@ -60,6 +60,7 @@ p {
 #additional {
 	color: #8f8d8d;
     font-size: 1.2rem;
+    padding-top: 1em;
 }
 
 #links {
@@ -105,30 +106,29 @@ p {
 
   /* Style page content */
 .main {
-    margin-left: 290px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
+    margin-left: 20em;
 }
 
-#picture_myself img {
-    position: relative;
-    width: 50rem;
-    height: 30rem;
-    /*left: -1.5rem;*/
-    /*top: -0.5rem;*/
-    float: right;
-    margin: 1rem;
-    margin-top: 2rem;
-    box-shadow: 0.5rem 0.5rem 1rem 0 black;
+#banner {
+    height: 30%;
+    width: auto;
+    background-image: url(resources/myself6.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    margin: -1em 0 0 -3em;
+    box-shadow: inset 0 0 1rem 0 black;
 }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+
+@media screen and (max-width: 992px) {
+    #banner {
+        height: 16.5em;
+    }
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
     .sidebar #title {font-size: 18px;}
-}
-
-main {
-    display: block;
 }
 
 #aboutme-box p a{
