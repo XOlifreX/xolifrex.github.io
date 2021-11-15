@@ -113,6 +113,7 @@ p {
     height: 30%;
     width: auto;
     background-image: url(resources/myself6.png);
+    background-attachment: fixed;
     background-size: 100% auto;
     background-repeat: no-repeat;
     margin: -1em 0 0 -3em;
