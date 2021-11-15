@@ -113,10 +113,16 @@ p {
     width: auto;
     background-image: url(../resources/MarioKartTrophiesBanner.png);
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100% auto;
     background-repeat: no-repeat;
     margin: -1em 0 0 -3em;
     box-shadow: inset 0 0 1rem 0 black;
+}
+
+@media screen and (max-width: 992px) {
+    #banner {
+        height: 16.5em;
+    }
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
@@ -131,6 +137,23 @@ p {
     height: 100%;
 }
 
+#mariokart-box ._3ds img {
+    width: 25em; 
+    height: 30em;
+}
+
+#mariokart-box img {
+    width: 60em;
+    height: auto;
+}
+
+@media screen and (max-width: 1280px) {
+    #mariokart-box img {
+        width: 97.5%;
+        height: auto;
+    }
+}
+
 #mariokart-box p a{
     text-decoration: none;
     color: red;
@@ -139,14 +162,4 @@ p {
 #mariokart-box p a:hover{
     text-decoration: none;
     color: #8f8d8d;
-}
-
-#tournaments #image-group img {
-    width: 30em;
-    height: 18em;
-}
-
-#tournaments img {
-    width: 50em;
-    height: 36em;
 }
