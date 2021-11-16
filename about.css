@@ -145,12 +145,31 @@ ul {
     margin-top: 1em;
 }
 
-#aboutme-box img {
-    width: 22em;
-    height: 30em;
+#aboutme-box #myself {
+    height: 32em;
+    width: 50em;
+    background-image: url(resources/myself5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 0 1em 0 1em;
     float: right;
     box-shadow: 0.5em 0.5em 1em 0 black;
+}
+
+@media screen and (max-width: 1550px) {
+    #aboutme-box #myself {
+        height: 18em;
+        width: 30em;
+        background-image: url(resources/myself5.png);
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    #aboutme-box #myself {
+        height: 30em;
+        width: 20em;
+        background-image: url(resources/myself6.png);
+    }
 }
 
 #aboutme-box a {
