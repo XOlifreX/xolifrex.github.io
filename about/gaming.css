@@ -121,10 +121,10 @@ ul {
 #banner {
     height: 30%;
     width: auto;
-    background-image: url(resources/AboutMeBanner.jpg);
+    background-image: url(../resources/GamingBanner2.jpg);
     background-attachment: fixed;
-    background-size: 100% auto;
     background-repeat: no-repeat;
+    background-size: 100% auto;
     margin: -1em 0 0 -3em;
     box-shadow: inset 0 0 1rem 0 black;
 }
