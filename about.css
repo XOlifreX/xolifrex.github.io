@@ -77,6 +77,11 @@ p {
     font-size: 1.2rem;
 }
 
+#links #about-topics a {
+    font-size: 0.8rem;
+    margin-left: 1em;
+}
+
 #links a:hover {
     text-decoration: underline;
 }
@@ -109,6 +114,10 @@ p {
     margin-left: 20em;
 }
 
+ul {
+    list-style-position: inside;
+}
+
 #banner {
     height: 30%;
     width: auto;
@@ -132,6 +141,10 @@ p {
     .sidebar #title {font-size: 18px;}
 }
 
+#aboutme-box {
+    margin-top: 1em;
+}
+
 #aboutme-box img {
     width: 22em;
     height: 30em;
@@ -140,12 +153,12 @@ p {
     box-shadow: 0.5em 0.5em 1em 0 black;
 }
 
-#aboutme-box p a {
+#aboutme-box a {
     text-decoration: none;
     color: red;
 }
 
-#aboutme-box p a:hover{
+#aboutme-box a:hover{
     text-decoration: none;
     color: #8f8d8d;
 }

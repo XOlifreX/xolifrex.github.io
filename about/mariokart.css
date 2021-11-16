@@ -77,6 +77,11 @@ p {
     font-size: 1.2rem;
 }
 
+#links #about-topics a {
+    font-size: 0.8rem;
+    margin-left: 1em;
+}
+
 #links a:hover {
     text-decoration: underline;
 }
@@ -107,6 +112,10 @@ p {
   /* Style page content */
 .main {
     margin-left: 20em;
+}
+
+ul {
+    list-style-position: inside;
 }
 
 #banner {
@@ -155,12 +164,12 @@ p {
     }
 }
 
-#mariokart-box p a{
+#mariokart-box a {
     text-decoration: none;
     color: red;
 }
 
-#mariokart-box p a:hover{
+#mariokart-box a:hover{
     text-decoration: none;
     color: #8f8d8d;
 }
