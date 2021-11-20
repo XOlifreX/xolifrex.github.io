@@ -121,7 +121,7 @@ ul {
 #banner {
     height: 30%;
     width: auto;
-    background-image: url(../resources/CodingBanner.png);
+    background-image: url(../resources/CodingBanner.PNG);
     background-attachment: fixed;
     background-size: 100% auto;
     background-repeat: no-repeat;
