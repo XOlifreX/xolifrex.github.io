@@ -146,7 +146,7 @@ ul {
 }
 
 #gaming-box img {
-    width: 60em;
+    width: 45em;
     height: auto;
 }
 
@@ -160,4 +160,14 @@ ul {
         width: 97.5%;
         height: auto;
     }
+}
+
+#gaming-box a {
+    text-decoration: none;
+    color: red;
+}
+
+#gaming-box a:hover{
+    text-decoration: none;
+    color: #8f8d8d;
 }
