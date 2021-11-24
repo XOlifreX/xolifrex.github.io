@@ -140,3 +140,17 @@ ul {
     .sidebar {padding-top: 15px;}
     .sidebar #title {font-size: 18px;}
 }
+
+#coding-box {
+    margin-top: 1em;
+}
+
+#aboutme-box a {
+    text-decoration: none;
+    color: red;
+}
+
+#aboutme-box a:hover{
+    text-decoration: none;
+    color: #8f8d8d;
+}
