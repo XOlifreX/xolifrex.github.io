@@ -140,3 +140,34 @@ ul {
     .sidebar {padding-top: 15px;}
     .sidebar #title {font-size: 18px;}
 }
+
+#gaming-box {
+    margin-top: 1em;
+}
+
+#gaming-box img {
+    width: 45em;
+    height: auto;
+}
+
+#gaming-box .mobile img {
+    width: 20em; 
+    height: auto;
+}
+
+@media screen and (max-width: 1280px) {
+    #gaming-box img {
+        width: 97.5%;
+        height: auto;
+    }
+}
+
+#gaming-box a {
+    text-decoration: none;
+    color: red;
+}
+
+#gaming-box a:hover{
+    text-decoration: none;
+    color: #8f8d8d;
+}
