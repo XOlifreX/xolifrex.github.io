@@ -145,12 +145,18 @@ ul {
     margin-top: 1em;
 }
 
-#aboutme-box a {
+#coding-box img {
+    width: 60em;
+    height: auto;
+}
+
+
+#coding-box a {
     text-decoration: none;
     color: red;
 }
 
-#aboutme-box a:hover{
+#coding-box a:hover{
     text-decoration: none;
     color: #8f8d8d;
 }
