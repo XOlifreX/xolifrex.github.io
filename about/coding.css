@@ -150,6 +150,12 @@ ul {
     height: auto;
 }
 
+@media screen and (max-width: 1280px) {
+    #coding-box img {
+        width: 97.5%;
+        height: auto;
+    }
+}
 
 #coding-box a {
     text-decoration: none;
